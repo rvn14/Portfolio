@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.063)),url(./assets/bg.jpg) content-box center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar {
+    align-items: center;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background: #12121240;
+    color: #fff;
+    display: flex;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    height: calc(40px + 2.5rem);
+    justify-content: space-between;
+    /* padding: 0 3.8rem; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 19;
+}
+
+.soclinks {
+    
+    display: flex;
+    gap: 1.6rem;
+    padding-top: 10px;
+    margin-left: 100px;
+
+
+}
+
+.soclinks a svg {
+    transition: .2s;
+}
+
+.soclinks a svg:hover {
+    fill: #0aff9d;
+    opacity: 1;
+}
+
+.cvbuttn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    padding: .5rem 1.4rem;
+    /* margin-right: 100px ; */
+    right: 40px;
+    border: 1px solid #0aff9d;
+    background: transparent;
+    color: #0aff9d;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: color .2s;
+    font-weight: 600;
+}
+
+
+.cvbuttn::before {
+    content: "";
+    padding: auto;
+    position: absolute;
+    z-index: -1;
+    background: #0aff9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    transition: left .2s, top .2s;
+}
+
+.cvbuttn:hover {
+    color: #080808;
+    font-weight: 600;
+
+}
+
+.cvbuttn:hover::before {
+    left: 0;
+    color: white;
+}
+
+.hero {
+    user-select: none;
+    width: 100%;
+    height: calc(100vh - 100px);
+    margin-left: calc(60px + 5vw );
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* backdrop-filter: blur(12px); */
+    
+}
+
+
+
+.txth{
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    /* backdrop-filter: blur(2px); */
+}
+
+
+.txt2{
+    font-size: 8rem;
+    line-height: 120px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* backdrop-filter: blur(2px); */
+}
+
+.txt2 span{
+    font-weight: 700;
+    color: #0aff9d;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .txth{
+        font-size: 2rem;
+    }
+
+    .txt2{
+        font-size: 2rem;
+    }
+
+    .cvbuttn{
+        right: 40px;
+    }
+    .soclinks{
+        margin-left: 70px;
+    }
+
+    .hero{
+        margin-left: 70px;
+    }
+    
+    .home {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .txth {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .txt2 {
+        line-height: 70px;
+        font-size: 3.5rem;
+    }
+
+    .cvbuttn {
+        right: 40px;
+    }
+
+    .soclinks {
+        margin-left: 60px;
+    }
+
+    .hero {
+        margin-left: 40px;
+    }
+    .home{
+        margin-left: 50px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.529), rgba(0, 0, 0, 0.493)), url(./assets/bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}

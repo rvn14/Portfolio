@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.about{
+    width: 100vw;
+    background: #080808;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.hder{
+    width: 100vw;
+    margin-top: 80px;
+
+}
+
+.abtxt{
+    /* margin: auto; */
+    font-family: "Ubuntu", sans-serif;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 5p;
+    /* letter-spacing: 5px; */
+    text-align: center;
+    color: white;
+    /* margin-top: 80px; */
+}
+
+.abtxt span{
+    color: #0aff9d;
+} 
+
+.abtdat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    color: white;
+}
+
+.abdatd{
+    height: 1000px;
+    flex: 1;
+    
+
+
+}
+
+.hiii{
+    padding: 100px 50px;
+    padding-left: 400px;
+}
+
+.par{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #a1a1a1;
+    /* border: 2px solid aqua; */
+}
+
+.par span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.edu{
+    padding: 300px 50px;
+    padding-right: 400px;
+    
+}
+
+#hed{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+}
+
+#schl{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 70px;
+    color: #a1a1a1;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+#schl:hover{
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .abtxt{
+        font-size: 2rem;
+    }
+
+    .abtdat {
+        flex-direction: column;
+        
+    }
+    .abdatd{
+        padding: 40px;
+    }
+
+    .par{
+        margin: 0px;
+        font-size: 1rem;
+    }
+
+    .par span{
+        font-size: 2rem;
+    }
+
+    #schl{
+        font-size: 3rem;
+        line-height: 50px;
+
+    }
+
+    #hed{
+        font-size: 2.5rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    .abtxt {
+        font-size: 2rem;
+    }
+
+    .abtdat{
+        flex-direction: column;
+    }
+
+    .abdatd{
+        padding: 40px;
+    }
+
+    .par{
+        margin: 0px;
+        font-size: 1rem;
+    }
+
+    .par span{
+        font-size: 2rem;
+    }
+
+    #schl{
+        font-size: 3rem;
+        line-height: 50px;
+
+    }
+
+    #hed{
+        font-size: 2.5rem;
+    }
+
+}
