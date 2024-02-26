@@ -59,10 +59,13 @@ const EncryptButton = () => {
     <motion.button
       whileHover={{
         scale: 1.025,
+
       }}
       whileTap={{
         scale: 0.975,
+        fontWeight: 900,
       }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
       onViewportEnter={scramble}
       
       className="txth"
@@ -76,6 +79,7 @@ const EncryptButton = () => {
         }}
         animate={{
           y: "-100%",
+          
         }}
         transition={{
           repeat: Infinity,

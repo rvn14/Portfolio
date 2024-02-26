@@ -58,7 +58,7 @@
     cursor: pointer;
     user-select: none;
     /* height: 120px; */
-    padding: 25px 0px;
+    padding: 5px 0px;
     gap: 15px;
     flex-shrink: 0;
     writing-mode: vertical-lr;
@@ -83,7 +83,7 @@
 
 .sidebar a:active{
     background-color: #ffffff28;
-    border-right: 2px solid #0aff9d;
+    border-right: 2px solid #00ff99;
 }
 
 @media screen and (max-width: 500px){

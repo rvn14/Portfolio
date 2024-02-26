@@ -89,7 +89,7 @@ a svg{
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .prjctwrap{
         grid-template-columns: 1fr;
         padding: 5.2rem 1.4rem;
