@@ -138,6 +138,31 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .txth {
+        font-size: 1.7rem;
+        letter-spacing: 8px;
+    }
+
+    .txt2 {
+        font-size: 7rem;
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .txth{
+        font-size: 1.5rem;
+        letter-spacing: 8px;
+    }
+
+    .txt2{
+        font-size: 6rem;
+        line-height: 90px;
+    }
+}
+
+
 
 @media screen and (max-width: 425px) {
     .txth{

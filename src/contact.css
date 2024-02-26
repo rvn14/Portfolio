@@ -113,25 +113,37 @@ form {
         border: none;
     }
 
+@media screen and (max-width: 1024px) {
+    .lnhed{
+        font-size: 5rem;
+    }
 
+    .lnhedd{
+        font-size: 5rem;
+    }
+
+    form{
+        width: 60%; 
+    }
+}
 
 @media screen and (max-width: 768px) {
-    .cntcwrap{
-        grid-template-columns: 1fr;
+        .lnhed {
+                font-size: 4rem;
+            }
         
-    }
-
-    
-    .lnks{
-        text-align: center;
-    }
+            .lnhedd {
+                font-size: 4rem;
+            }
+        
+            form {
+                width: 60%;
+            }
 }
 
 @media screen and (max-width: 425px) {
     .lnhed{
         font-size: 2rem;
-        
-
     }
 
     .lnhedd{
@@ -139,8 +151,7 @@ form {
     }
 
     form{
-        width: 80%;
-        
+        width: 80%; 
     }
 
 }
