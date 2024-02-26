@@ -11,7 +11,7 @@
 }
 .sidebar{
     width: 60px;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,6 +23,7 @@
     background: #080808;
     color: white;
     font-family: "Quicksand";
+    /* border: 2px solid white; */
 }
 
 .sidebar .lg{
@@ -56,8 +57,9 @@
     
     cursor: pointer;
     user-select: none;
-    height: 100px;
-    /* padding: 5px; */
+    /* height: 120px; */
+    padding: 25px 0px;
+    gap: 15px;
     flex-shrink: 0;
     writing-mode: vertical-lr;
     font-size: 1.1rem;
@@ -84,16 +86,16 @@
     border-right: 2px solid #0aff9d;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
     .sidebar{
         width: 50px;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 
     .sidebar {
-        width: 40px;
+        width: 50px;
     }
 }

@@ -9,8 +9,8 @@ const Contact = () => {
         <div className="contact">
             <Scrab></Scrab>
            <section className='hder'>
-            <ParallaxText baseVelocity={-5}><div className="abtxt">CONTA <span>CTS</span></div></ParallaxText>
-            <ParallaxText baseVelocity={5}><div className="abtxt">CONTA <span>CTS</span></div></ParallaxText>
+            <ParallaxText baseVelocity={-5}><div className="abtxt">CONT<span>ACT</span></div></ParallaxText>
+            <ParallaxText baseVelocity={5}><div className="abtxt">CONT<span>ACT</span></div></ParallaxText>
            </section>
         </div>
 

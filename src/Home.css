@@ -8,6 +8,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    /* border: 2px solid red; */
     
 }
 
@@ -138,57 +139,68 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
     .txth{
-        font-size: 2rem;
+        font-size: 1rem;
+        letter-spacing: 8px;
     }
 
     .txt2{
-        font-size: 2rem;
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .soclinks{
+        gap: 10px;
+        margin-left: 70px;
+    }
+
+    .soclinks a svg{
+        height: 1.5rem;
     }
 
     .cvbuttn{
-        right: 40px;
-    }
-    .soclinks{
-        margin-left: 70px;
+        right: 20px;
+        font-size: 1rem;
     }
 
-    .hero{
-        margin-left: 70px;
+    .home{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.414)), url(./assets/bg.jpg)  center;
+        background-position: center;
+        background-size: cover;
     }
-    
-    .home {
-        margin-left: 50px;
-    }
+
 }
 
-@media screen and (max-width: 400px) {
-    .txth {
-        font-size: 1rem;
-        margin-bottom: 30px;
-    }
+@media screen and (max-width: 375px) {
+        .txth {
+            font-size: 1rem;
+            letter-spacing: 8px;
+        }
+    
+        .txt2 {
+            font-size: 3rem;
+            line-height: 60px;
+        }
 
-    .txt2 {
-        line-height: 70px;
-        font-size: 3.5rem;
-    }
+        .soclinks{
+            gap: 10px;
+            margin-left: 60px;
+        }
 
-    .cvbuttn {
-        right: 40px;
-    }
+        .soclinks a svg{
+            height: 1.5rem;
+        }
 
-    .soclinks {
-        margin-left: 60px;
-    }
+        .cvbuttn{
+            right: 20px;
+            font-size: 1rem;
+        }
 
-    .hero {
-        margin-left: 40px;
-    }
-    .home{
-        margin-left: 50px;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.529), rgba(0, 0, 0, 0.493)), url(./assets/bg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+        .home{
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.742), rgba(0, 0, 0, 0.414)), url(./assets/bg.jpg)  center;
+            background-position: center;
+            background-size: cover;
+        }
+        
 }

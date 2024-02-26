@@ -26,9 +26,6 @@ const Navbar = () => {
       transition={{type: 'tween', duration: 0.5, ease: 'easeInOut', delay: 0.3}}><Link to='about' smooth duration={500}>ABOUT</Link></motion.li>
           <motion.li initial={{ x:-60 }}
       animate={{ x:0 }}
-      transition={{type: 'tween', duration: 0.5, ease: 'easeInOut', delay: 0.4}}><Link to='exp' smooth duration={500}>EXP.</Link></motion.li>
-          <motion.li initial={{ x:-60 }}
-      animate={{ x:0 }}
       transition={{type: 'tween', duration: 0.5, ease: 'easeInOut', delay: 0.5}}><Link to='work' smooth duration={500}>PROJECTS</Link></motion.li>
           <motion.li initial={{ x:-60 }}
       animate={{ x:0 }}

@@ -2,18 +2,21 @@
 
 
 .about{
-    width: 100vw;
+    width: 100%;
+    margin-left: 0px;
     background: #080808;
     background-size: cover;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    /* border: 2px solid red; */
+    /* overflow-x: hidden; */
 
 }
 
 .hder{
-    width: 100vw;
+    width: 100%;
     margin-top: 80px;
 
 }
@@ -40,21 +43,19 @@
     height: 100%;
     display: flex;
     /* flex-wrap: wrap; */
-
+    
     color: white;
 }
 
 .abdatd{
-    height: 1000px;
     flex: 1;
-    
-
+    height: 1000px;
 
 }
 
 .hiii{
-    padding: 100px 50px;
-    padding-left: 400px;
+    padding: 100px 25px;
+    padding-left: 20%;
 }
 
 .par{
@@ -72,8 +73,8 @@
 }
 
 .edu{
-    padding: 300px 50px;
-    padding-right: 400px;
+    padding: 300px 25px;
+    padding-right: 20%;
     
 }
 
@@ -101,72 +102,80 @@
 
 
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 425px) {
     .abtxt{
-        font-size: 2rem;
-    }
-
-    .abtdat {
-        flex-direction: column;
-        
-    }
-    .abdatd{
-        padding: 40px;
-    }
-
-    .par{
-        margin: 0px;
-        font-size: 1rem;
-    }
-
-    .par span{
-        font-size: 2rem;
-    }
-
-    #schl{
-        font-size: 3rem;
-        line-height: 50px;
-
-    }
-
-    #hed{
-        font-size: 2.5rem;
-    }
-
-    
-}
-
-@media screen and (max-width: 400px) {
-    .abtxt {
         font-size: 2rem;
     }
 
     .abtdat{
         flex-direction: column;
     }
-
-    .abdatd{
-        padding: 40px;
-    }
-
+    
     .par{
-        margin: 0px;
         font-size: 1rem;
     }
 
     .par span{
         font-size: 2rem;
     }
-
-    #schl{
-        font-size: 3rem;
-        line-height: 50px;
-
+    
+    .main {
+        width: calc(100vw - 50px);
     }
 
     #hed{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
+    #schl{
+        font-size: 2.4rem;
+        line-height: 40px;
+    }
+
+    .edu{
+        padding: 0 15%;
+    }
+
+    .hiii{
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .abtxt{
+        font-size: 2rem;
+    }
+
+    .abtdat{
+        flex-direction: column;
+    }
+    
+    .main{
+        width: calc(100vw - 50px);
+    }
+
+    .par{
+        font-size: 1rem;
+    }
+
+    .par span{
+        font-size: 2rem;
+    }
+    
+    .txth{
+        font-size: 1rem;
+    }
+
+    #schl{
+        font-size: 2.4rem;
+        line-height: 40px;
+    }
+
+    .edu{
+        padding: 0 15%;
+    }
+
+    .hiii{
+        padding: 10%;
+    }
 }

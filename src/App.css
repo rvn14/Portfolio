@@ -1,11 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 
 body{
     scroll-behavior: smooth;
     scroll-snap-type: mandatory;
     background-color: black;
-    height: 100%;
-    width: 100vw;
-    
     
     
 }
@@ -18,19 +18,25 @@ body{
 }
 
 .main{
+    width: calc(100vw - 60px);
     background-color: black;
 }
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
     .wrapper{
         grid-template-columns: 50px 1fr;
+
     }
+
+    
 
 }
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 375px) {
+    .wrapper {
+            grid-template-columns: 50px 1fr;
+    }
 
 }
