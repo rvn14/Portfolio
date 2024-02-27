@@ -24,15 +24,14 @@ const Coneml = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form className='cntct' ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" placeholder='Enter name'/>
+      <input className='cninp' type="text" name="user_name" placeholder='Enter name'/>
       <label>Email</label>
-      <input type="email" name="user_email" placeholder='Enter email address'/>
+      <input className='cninp' type="email" name="user_email" placeholder='Enter email address'/>
       <label>Message</label>
       <textarea name="message" placeholder='Type your message...'/>
       <motion.input
-      
       whileTap={{ scale: 0.95 }}
       transition={{ type: "spring", stiffness: 400, damping: 17 }}
       className='subbtn' type="submit" value="Send" />

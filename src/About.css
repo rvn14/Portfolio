@@ -98,6 +98,48 @@
     color: white;
 }
 
+.sklls{
+    margin-top: 2rem;
+    color: #a1a1a1;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    transition: .3;
+}
+
+
+@media screen and (max-width: 1440px) {
+    #hed{
+        font-size: 2.6rem;
+    }
+
+    #schl{
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .edu{
+        padding-top: 250px;
+        padding-right: 18%;
+    }
+
+    .hiii{
+        padding-left: 18%;
+    }
+    .par{
+        font-size: 1.3rem;
+    }
+
+    .par span{
+        font-size: 1.7rem;
+    }
+    .sklls{
+        font-size: 2.3rem;
+    }
+    
+}
+
 
 @media screen and (max-width: 1024px) {
     #hed{
@@ -189,6 +231,9 @@
     .hiii{
         padding: 10%;
     }
+    .sklls{
+        font-size: 1.9rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -228,4 +273,7 @@
     .hiii{
         padding: 10%;
     }
+        .sklls {
+            font-size: 1.6rem;
+        }
 }
